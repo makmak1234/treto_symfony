@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="{{ asset('bundles/DownlImg/elem/1419281141_363179.ico') }}" rel="shortcut icon" type="image/x-icon" />
+	<title>Makmak</title>
+	<link href="{{ asset('bundles/DownlImg/indexcss.css') }}" type="text/css" rel="stylesheet">
+	<script language="javascript" type="text/javascript"  src="{{ asset('bundles/DownlImg/uploadtxt.js') }}"></script>
+	<script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+	<script src="{{ path('fos_js_routing_js', {'callback': 'fos.Router.setData'}) }}"></script>
+	
+</head>
+<body onunload="myunload1()" onresize="drsize()">
+	<script>
+		//testajax( "{{ path('downl_img_homepage') }}" );
+	</script>
+	
+	 <!--<iframe src="{{ asset('bundles/DownlImg/inputtxt.html') }}" id="myframe" frameborder="no" scrolling="no" seamless >-->
+	 <iframe src="{{ path('inputtxt_html_twig') }}" id="myframe" >	<!-- frameborder="no" scrolling="yes" seamless-->	
+	</iframe>
+	<div id="content">
+		<!--<img src="{{ asset('/imagesw/z_Cento Per Cento-IMOLA CERAMICA-1.jpg') }}">-->
+	</div>
+	<br>
+	<div id="myajax">
+		<img src="{{ asset('bundles/DownlImg/elem/a79.jpg') }}">
+	</div>
+</body>
+</html>

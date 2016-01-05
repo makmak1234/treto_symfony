@@ -1,0 +1,18 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="indexcss.css" type="text/css" rel="stylesheet">
+<!--	<script language="javascript" type="text/javascript"  src="uploadtxt.js"></script>		-->
+</head>
+<body>
+	<form enctype="multipart/form-data" action="uploadtxt.php" method="post">
+		<div class="inputtxt">
+			<div class="input_button_style">
+				<div class="input_font_style">Выбрать файл txt</div>
+				<input type="file" name="filetxt" id="filetxt" size="1" onchange='submit(); window.parent.document.getElementById("myajax").style.display="block";' class="input_input_style"><br>
+			</div>
+		</div>
+	</form>
+	<div id="myerror">Принудительная полос прокр</div>
+</body>
+</html>

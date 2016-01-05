@@ -1,0 +1,4 @@
+services:
+#    downl_img.example:
+#        class: DownlImgBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

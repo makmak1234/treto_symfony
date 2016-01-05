@@ -1,0 +1,21 @@
+downl_img_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DownlImgBundle:Default:index, name: max }
+
+ajaxtxt:
+    path:     /ajaxtxt
+    defaults: { _controller: DownlImgBundle:Default:ajaxtxt }
+    requirements:
+        methods:  GET
+    options:
+        expose: true
+        
+inputtxt_html_twig:
+    path:     /inputtxt_html_twig
+    defaults: { _controller: DownlImgBundle:Default:inputtxt }
+    
+uploadtxt_php:
+    path:     /uploadtxt_php
+    defaults: { _controller: DownlImgBundle:Default:uploadtxt }
+    requirements:
+        methods:  POST | GET

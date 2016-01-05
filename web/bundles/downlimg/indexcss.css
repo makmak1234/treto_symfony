@@ -1,0 +1,57 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img,abbr{border:0;}address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}ul li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+
+body{
+	text-align: left;
+	font-size: 0.625em; 
+}
+
+.inputtxt{
+	position: fixed;
+	right: 0;
+	top: 100px;
+	z-index: 9999;
+}
+
+.input_button_style 
+		{ margin-left:10px; text-align:center; overflow:hidden; width:130px; height:20px; border:1px solid #3D3D3D; background-color:#fff; border-radius:4px;}
+.input_font_style 
+		{ color:#000; font-size:16px; font-weight:bold;}
+.input_input_style 
+		{ margin-top:-50px; margin-left:-410px; -moz-opacity:0; filter:alpha(opacity=0); opacity:0; font-size:150px; height:100px;}
+.input_button_style:hover {
+	background-color:#eee;
+}
+
+#myframe{
+	position: fixed; width: 150px; right: 0px; top: 150px;
+}
+
+#content{
+	width: 75%;
+/*outline: 1px solid #000;*/
+	margin: 0 auto;
+}
+
+#content img{
+	position: relative;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content>div{
+	display: inline-block;
+	position: relative;
+	/*outline: 1px solid #000;*/
+	overflow: hidden;
+	/*background: #f00;*/
+}
+
+#myajax{
+	display: none;
+	text-align: center;
+}
+
+#myerror{
+	float: right;
+}
